@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 150px;
+  padding-top: 20px;
+  transition: 0.25s ease;
+  border: white solid 6px;
+ 
+}
+button{
+    font-size: 20px;
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+p{
+    margin: 20px auto 0;
+    font-weight: bold;
+    font-size: 17px;
+    visibility: hidden;
+    width: 240px;
+    opacity: 0;
+    transition: 0.6s;
+    transform: translateX(-200px);
+    
+}
+button:hover{
+    background-color: aqua;
+}#btn_1{
+    margin-right: 65px;
+}
+.autour{
+    background-color:gray;
+    border-radius: 30px;
+    border: dashed pink 4px;
+}
+.vrai{
+    visibility: visible;
+    background-color: green;
+    border-radius: 10px;
+    opacity: 1;
+    transform: translateX(0);
+
+
+}
+.faux{
+    visibility: visible;
+    background-color: red;
+    border-radius: 10px;
+    opacity: 1;
+    transform: translateX(0);
+
+}
